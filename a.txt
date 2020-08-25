@@ -1,0 +1,352 @@
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil2later_003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.947	1.860	2.250	7.930	13807407	1740679	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		179.51	ppm		0.00000
+2	Xe	Target	1	131.90	1.959	1.885	2.165	6.390	24871	3893	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		37.22	ppm		0.00000
+3	Kr	Target	1	83.90	1.955	1.875	1.975	3.780	2366	626	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.91	ppm		0.00000
+4	Ne	ISTD	1	22.00	2.030	2.000	2.140	4.440	1390	313	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0.86	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil2later_004.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.953	1.865	2.255	7.670	10766617	1403026	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		190.36	ppm		0.00000
+2	Xe	Target	1	131.90	1.968	1.880	2.135	6.290	28322	4500	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		26.20	ppm		0.00000
+3	Kr	Target	1	83.90	1.976	1.895	1.985	5.480	515	94	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0.37	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.983	1.885	2.075	6.630	2453	370	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		3.18	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil2later_005.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.951	1.860	2.260	8.100	13660363	1685525	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		194.50	ppm		0.00000
+2	Xe	Target	1	131.90	1.964	1.875	2.165	6.490	46361	7143	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		40.53	ppm		0.00000
+3	Kr	Target	1	83.90	1.976	1.890	2.085	6.940	3178	458	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2.82	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.990	1.960	2.015	2.780	1138	409	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.33	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil2_001.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.970	1.880	2.275	7.790	11735250	1505684	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		182.58	ppm		0.00000
+2	Xe	Target	1	131.90	1.977	1.900	2.210	6.630	38345	5780	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		78.67	ppm		0.00000
+3	Kr	Target	1	83.90	1.980	1.905	2.095	5.840	3428	587	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		6.20	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.969	1.905	2.120	6.480	4648	717	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		9.49	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil2_002.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.967	1.880	2.275	7.640	11669438	1527284	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		199.03	ppm		0.00000
+2	Xe	Target	1	131.90	1.983	1.895	2.210	6.510	38511	5918	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		107.72	ppm		0.00000
+3	Kr	Target	1	83.90	1.977	1.900	2.085	5.920	3364	568	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		5.24	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.973	1.905	2.120	6.330	4801	759	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		8.24	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil2_003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.972	1.880	2.275	7.630	11793569	1545028	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		190.25	ppm		0.00000
+2	Xe	Target	1	131.90	1.982	1.900	2.220	6.650	39773	5982	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		96.15	ppm		0.00000
+3	Kr	Target	1	83.90	1.978	1.910	2.065	5.300	2749	519	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		3.24	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.977	1.900	2.145	6.870	5424	789	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		13.36	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil4001.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.962	1.875	2.265	7.470	13852961	1854804	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		206.37	ppm		0.00000
+2	Xe	Target	1	131.90	1.975	1.900	2.190	6.190	30244	4888	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		83.07	ppm		0.00000
+3	Kr	Target	1	83.90	1.965	1.895	2.115	5.980	3591	601	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		9.42	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.971	1.895	2.115	6.720	6107	909	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		9.69	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil4002.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.970	1.880	2.270	7.600	14100643	1854980	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		201.19	ppm		0.00000
+2	Xe	Target	1	131.90	1.979	1.905	2.180	6.230	29902	4800	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		50.56	ppm		0.00000
+3	Kr	Target	1	83.90	1.970	1.905	2.070	5.160	2888	560	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		3.92	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.980	1.900	2.150	7.040	6720	955	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		12.80	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil4003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.967	1.880	2.265	7.590	13818559	1820044	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		181.93	ppm		0.00000
+2	Xe	Target	1	131.90	1.979	1.905	2.195	6.220	30168	4848	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		68.86	ppm		0.00000
+3	Kr	Target	1	83.90	1.971	1.905	2.110	6.000	3669	612	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		8.92	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.979	1.895	2.115	6.880	6078	883	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		6.86	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil4later_001.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.949	1.860	2.260	8.090	13771066	1701220	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		199.89	ppm		0.00000
+2	Xe	Target	1	131.90	1.961	1.880	2.170	6.530	36834	5639	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		43.58	ppm		0.00000
+3	Kr	Target	1	83.90	1.932	1.880	1.940	2.920	190	65	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0.34	ppm		0.00000
+4	Ne	ISTD	1	22.00	2.020	1.990	2.070	3.540	1116	315	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0.91	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil4later_002.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.950	1.860	2.260	8.200	13933552	1698801	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		190.03	ppm		0.00000
+2	Xe	Target	1	131.90	1.961	1.880	2.160	6.460	38538	5966	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		36.29	ppm		0.00000
+3	Kr	Target	1	83.90	2.009	1.880	2.060	8.650	2214	256	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.65	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.990	1.885	2.055	6.460	2055	318	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.76	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil4later_003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.950	1.860	2.260	8.190	13948436	1703610	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		189.34	ppm		0.00000
+2	Xe	Target	1	131.90	1.968	1.885	2.155	6.460	36691	5676	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		39.62	ppm		0.00000
+3	Kr	Target	1	83.90	2.001	1.890	2.055	7.760	2444	315	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2.27	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.995	1.880	2.015	5.650	2482	439	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.68	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil5001.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.964	1.875	2.265	7.510	14217842	1892394	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		198.16	ppm		0.00000
+2	Xe	Target	1	131.90	1.975	1.895	2.175	6.080	24695	4064	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		58.63	ppm		0.00000
+3	Kr	Target	1	83.90	1.970	1.895	2.120	5.980	3441	575	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		10.60	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.985	1.895	2.130	7.100	6641	935	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		10.21	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil5002.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.964	1.875	2.265	7.620	14552457	1908557	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		197.57	ppm		0.00000
+2	Xe	Target	1	131.90	1.972	1.900	2.180	6.160	26519	4306	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		62.74	ppm		0.00000
+3	Kr	Target	1	83.90	1.966	1.900	2.080	5.500	3073	559	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		5.25	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.985	1.895	2.115	7.120	6513	915	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		7.04	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil5003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.965	1.875	2.265	7.650	14047602	1835550	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		193.60	ppm		0.00000
+2	Xe	Target	1	131.90	1.978	1.900	2.195	6.220	26356	4240	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		79.53	ppm		0.00000
+3	Kr	Target	1	83.90	1.971	1.895	2.125	6.250	3613	578	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		9.88	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.980	1.895	2.115	6.940	6436	927	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		7.81	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil5later_001.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.952	1.860	2.270	8.340	13860779	1662751	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		203.67	ppm		0.00000
+2	Xe	Target	1	131.90	1.964	1.885	2.150	6.530	30290	4637	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		27.07	ppm		0.00000
+3	Kr	Target	1	83.90	1.995	1.890	2.050	6.800	1633	240	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.93	ppm		0.00000
+4	Ne	ISTD	1	22.00	2.003	1.875	2.090	7.870	2747	349	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2.88	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil5later_002.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.951	1.860	2.265	8.430	13880998	1646897	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		187.21	ppm		0.00000
+2	Xe	Target	1	131.90	1.961	1.880	2.185	6.860	31220	4551	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		46.35	ppm		0.00000
+3	Kr	Target	1	83.90	2.025	1.950	2.030	4.520	917	203	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0.81	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.989	1.960	2.085	5.060	1997	395	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.31	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil5later_003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.959	1.860	2.280	9.250	14371409	1554353	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		189.11	ppm		0.00000
+2	Xe	Target	1	131.90	1.978	1.885	2.185	7.720	31017	4019	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		37.74	ppm		0.00000
+3	Kr	Target	1	83.90	2.015	1.965	2.055	4.610	849	184	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0.73	ppm		0.00000
+4	Ne	ISTD	1	22.00	2.015	1.890	2.075	8.110	2312	285	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.99	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil7002.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.978	1.890	2.270	7.150	6061604	847779	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		187.41	ppm		0.00000
+2	Xe	Target	1	131.90	1.994	1.920	2.130	5.450	6484	1189	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		16.46	ppm		0.00000
+3	Kr	Target	1	83.90	1.987	1.910	2.045	4.710	976	207	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2.75	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.988	1.910	2.095	5.660	2644	467	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		5.33	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil7003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.980	1.890	2.285	8.010	14640961	1826975	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		193.88	ppm		0.00000
+2	Xe	Target	1	131.90	1.993	1.915	2.195	6.470	24153	3731	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		45.81	ppm		0.00000
+3	Kr	Target	1	83.90	1.980	1.920	2.090	5.560	2612	470	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		4.50	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.994	1.905	2.115	7.380	6685	906	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		5.20	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil7004.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.976	1.890	2.280	7.860	14731072	1874111	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		193.63	ppm		0.00000
+2	Xe	Target	1	131.90	1.988	1.910	2.185	6.180	24600	3980	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		49.99	ppm		0.00000
+3	Kr	Target	1	83.90	1.990	1.915	2.125	6.200	3360	542	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		9.46	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.999	1.910	2.150	7.400	6818	921	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		9.79	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil7later_001.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.951	1.860	2.265	8.400	13375622	1592113	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		186.53	ppm		0.00000
+2	Xe	Target	1	131.90	1.966	1.880	2.150	6.660	23340	3505	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		26.34	ppm		0.00000
+3	Kr	Target	1	83.90	1.996	1.980	2.045	2.760	458	166	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0.91	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.993	1.975	2.035	3.040	1046	344	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.02	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil7later_002.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.957	1.865	2.270	8.560	12808008	1496706	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		184.99	ppm		0.00000
+2	Xe	Target	1	131.90	1.974	1.885	2.175	7.070	22336	3158	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		26.57	ppm		0.00000
+3	Kr	Target	1	83.90	2.085	2.010	2.105	5.590	509	91	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0.49	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.965	1.880	1.980	4.090	1265	309	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.16	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\Coil7later_003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.952	1.860	2.270	8.370	13527245	1615399	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		198.89	ppm		0.00000
+2	Xe	Target	1	131.90	1.967	1.885	2.185	6.760	24119	3567	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		42.28	ppm		0.00000
+3	Kr	Target	1	83.90	1.920	1.890	2.040	8.080	1494	185	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.16	ppm		0.00000
+4	Ne	ISTD	1	22.00	2.006	1.880	2.085	7.750	2644	341	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2.96	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\GasCanister001.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.972	1.885	2.270	7.270	14076094	1937290	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		196.69	ppm		0.00000
+2	Xe	Target	1	131.90	1.980	1.920	2.115	5.530	2433	440	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		7.88	ppm		0.00000
+3	Kr	Target	1	83.90	1.980	1.895	2.070	5.390	1352	251	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		3.44	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.977	1.910	2.125	6.840	4348	636	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		8.52	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\GasCanister002.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.956	1.875	2.255	7.040	12976643	1843058	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		209.65	ppm		0.00000
+2	Xe	Target	1	131.90	1.965	1.910	2.075	5.090	2192	431	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		5.48	ppm		0.00000
+3	Kr	Target	1	83.90	1.961	1.905	2.005	4.100	911	222	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1.82	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.961	1.900	2.095	6.110	3890	637	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		6.68	ppm		0.00000
+
+[Header]
+Data File Name	C:\Users\User\Desktop\Sampler\2_5_2020 Mixed Gas Test\GasCanister003.qgd
+Output Date	2/14/2020
+Output Time	4:08:26 PM
+
+[MS Quantitative Results]
+# of IDs	4
+ID#	Name	Type	ISTD Group#	Mass	Ret.Time	Start Time	End Time	A/H	Area	Height	Conc.	Mode	Peak#	Std.Ret.Time	Calibration Curve	3rd	2nd	1st	Constant	Ref.Ion Area	Ref.Ion Height	Ref.Ion Set Ratio	Ref.Ion Ratio	Recovery	SI	Ref.Ion1 m/z	Ref.Ion1 Area	Ref.Ion1 Height	Ref.Ion1 Set Ratio	Ref.Ion1 Ratio	Ref.Ion2 m/z	Ref.Ion2 Area	Ref.Ion2 Height	Ref.Ion2 Set Ratio	Ref.Ion2 Ratio	Ref.Ion3 m/z	Ref.Ion3 Area	Ref.Ion3 Height	Ref.Ion3 Set Ratio	Ref.Ion3 Ratio	Ref.Ion4 m/z	Ref.Ion4 Area	Ref.Ion4 Height	Ref.Ion4 Set Ratio	Ref.Ion4 Ratio	Ref.Ion5 m/z	Ref.Ion5 Area	Ref.Ion5 Height	Ref.Ion5 Set Ratio	Ref.Ion5 Ratio	Ret. Index	S/N	Unit	Description	Threshold
+1	Ar	Target	1	40.00	1.959	1.880	2.275	7.450	13575759	1821944	0.00000	Auto	1	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		213.12	ppm		0.00000
+2	Xe	Target	1	131.90	1.980	1.910	2.095	5.220	2463	472	0.00000	Auto	2	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		5.52	ppm		0.00000
+3	Kr	Target	1	83.90	1.956	1.910	2.045	4.340	898	207	0.00000	Auto	3	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2.33	ppm		0.00000
+4	Ne	ISTD	1	22.00	1.985	1.900	2.045	5.460	2552	467	0.00000	Auto	4	2.000						0	0	0	0.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2.11	ppm		0.00000
+
+
