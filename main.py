@@ -1,4 +1,6 @@
 import os.path as pth
+import sys
+
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tck
 import numpy as np
@@ -7,7 +9,7 @@ import json
 # change this to the number of samples you have from each coil
 NUM_SAMPLES = 3
 AREA = 'area'
-stDev = 'stdev'
+STDEV = 'stdev'
 
 
 def main():
@@ -73,6 +75,7 @@ def get_info(data, str_to_find, num_sets):
                     total_sets += 1
             else:
                 counter += 1
+    sys.exit('Cannot find ' + str_to_find + ' in your file')
 
 
 def remove_trash_lines(data, num_lines):
@@ -281,7 +284,7 @@ def write_average(fname, names_dict, num_spec):
         # averages data of each of the coil aliquots, gets standard deviation
         for name in all_aliquots:
             all_aliquots[name][AREA] = round(all_aliquots[name][AREA] / NUM_SAMPLES, 4)
-            all_aliquots[name][stDev] = np.std(all_areas[name])
+            all_aliquots[name][STDEV] = np.std(all_areas[name])
         errors[keys] = {}
         errors[keys] = all_aliquots
 
@@ -303,9 +306,8 @@ def prepare_plot(fname, num_spec):
     with open(fname, 'r') as file:
         file_lines = json.load(file)
     for coil in file_lines:
-        # TODO prepare data for charting
-        print(coil)
-    # file_len = get_file_len(fname)
+        for spec in file_lines[coil]:
+            print('spec is', spec)
     # grabs the indiv. dataset area
     array_of_spec_names = []
     array_of_areas = []
@@ -379,7 +381,7 @@ def find_bounds(upper_or_lower, max_or_min):
 def create_plots(array_of_areas, array_of_spec_names, entry_names, num_spec, fname):
     """
     makes the charts
-    TODO get names to norm to and normalize all the datasets, not just one
+    TODO remove method prepare_plots(), just read the file and use it here
     :param array_of_areas: the areas in each coil
     :param array_of_spec_names: the species names in the coils
     :param entry_names: the names of all the coils that we are analyzing
