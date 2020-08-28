@@ -1,28 +1,81 @@
 import os.path as pth
-import sys
 
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tck
 import numpy as np
 import json
 
+from typing import List, TextIO, Dict, Union
+
 # change this to the number of samples you have from each coil
 NUM_SAMPLES = 3
+
 AREA = 'area'
 STDEV = 'stdev'
 
 
 def main():
-    file_name = 'a.txt'  # check_file_name()
+    file_name = check_file_name()
     spec_with_name = run_save_concise_data(file_name)
     num_spec = spec_with_name[0]
     file_name_processed = spec_with_name[1]
     compressed_dict = group_data(file_name_processed, num_spec)
     final_fname = write_average(file_name_processed, compressed_dict, num_spec)
-    prepare_plot(final_fname, num_spec)
+    create_plots(final_fname)
 
 
-def empty_file(fname):
+def create_plots(fname: str) -> None:
+    with open(fname, 'r') as file:
+        file_lines = json.load(file)
+    cont = 'y'
+    while cont.lower() == 'y':
+        spec_to_norm_to = get_spec_to_norm_to(file_lines)
+        normalized_data_dict = norm_data(file_lines, spec_to_norm_to)
+        absolute_path = pth.abspath(fname).strip(fname)
+        print('saving graphs...')
+        for coil in normalized_data_dict:
+            areas = []
+            st_devs = []
+            single_set = normalized_data_dict[coil]
+            array_of_spec_names = []
+            for species in single_set:
+                single_species = single_set[species]
+                areas.append(single_species[AREA])
+                st_devs.append(single_species[STDEV])
+                array_of_spec_names.append(species)
+            x_pos = np.arange(len(areas))
+            fig, ax = plt.subplots()
+            ax.bar(x_pos, areas, yerr=st_devs, width=.2, alpha=0.8, capsize=4)
+            ax.xaxis.set_major_locator(tck.MultipleLocator(10))
+            ax.set_xticks(x_pos)
+            ax.set_xticklabels(array_of_spec_names)
+            max_y_val = find_bounds(max(areas), 'max')
+            min_y_val = find_bounds(min(areas), 'min')
+            ax.set_yscale('log')
+            ax.set_ylim(min_y_val, max_y_val)
+            ax.set_xlabel('Species')
+            ax.set_ylabel('Area normalized to ' + spec_to_norm_to)
+            ax.set_title(coil)
+            ax.grid()
+            file_name = coil + '_normalized_to_' + spec_to_norm_to + '.svg'
+
+            # plt.show()
+            plt.savefig(pth.join(absolute_path, file_name), format='svg')
+        cont = input('Press \'y\' to normalize to another species, any other key to quit ')
+
+
+def get_spec_to_norm_to(data: Dict[str, Dict[str, float]]) -> str:
+    first_coil = list(data)[0]
+    spec_to_norm_to = input(
+        'Enter the name of the species that you want to normalize to ')
+    # find out if the spec name ('Ar' for example) is in the list of spec names
+    while spec_to_norm_to not in data[first_coil]:
+        spec_to_norm_to = input(spec_to_norm_to + ' not found, try again.\n(be sure to write the '
+                                                  'case-sensitive name) ')
+    return spec_to_norm_to
+
+
+def empty_file(fname: str) -> None:
     """
     deletes contents of a file so that we don't get redundant data
     :param fname: the name of the file
@@ -32,25 +85,29 @@ def empty_file(fname):
         pass
 
 
-def check_file_name():
+def check_file_name() -> str:
     """
     asks user for a file name, ensures it exists
     :return: the file name
     """
-    file_name = get_file_name()
-    while not pth.exists(file_name):
+    while True:
+        # emulate do-while
         file_name = get_file_name()
+        if not pth.exists(file_name):
+            print('File not found, try again (remember not to include the extension)')
+        else:
+            break
     return file_name
 
 
-def get_file_name():
+def get_file_name() -> str:
     """
     :return: user's file name
     """
     return input("Enter the file name, no extension ") + '.txt'
 
 
-def get_info(data, str_to_find, num_sets):
+def get_info(data: str, str_to_find: str, num_sets: int) -> int or ValueError:
     """
     reads the file and returns which line holds a certain string, along with the second
     element in that line
@@ -59,6 +116,7 @@ def get_info(data, str_to_find, num_sets):
     :param num_sets: the number of times we want to skip before returning the string (ie if I
     want to find the 10th ocurrence of 'Data File Name' I would set num_sets = 10)
     :return: the number of species found and the line number the species start at
+    :raises ValueError: if the string to find is not in the file
     """
     counter = total_sets = 1
     with open(data, 'r') as file:
@@ -75,10 +133,10 @@ def get_info(data, str_to_find, num_sets):
                     total_sets += 1
             else:
                 counter += 1
-    sys.exit('Cannot find ' + str_to_find + ' in your file')
+    raise ValueError('Cannot find ' + str_to_find + ' in your file')
 
 
-def remove_trash_lines(data, num_lines):
+def remove_trash_lines(data: str, num_lines: int) -> List[str]:
     """
     gets rid of all the lines that aren't needed
     :param data: the file we are reading
@@ -90,7 +148,7 @@ def remove_trash_lines(data, num_lines):
     return last_line
 
 
-def get_area_col(area_row):
+def get_area_col(area_row: str) -> int:
     """
     finds the column that 'Area' is in
     :param area_row: the row that 'Area' is in
@@ -102,7 +160,7 @@ def get_area_col(area_row):
             return counter
 
 
-def delete_bad_chars(string):
+def delete_bad_chars(string: str) -> List[str]:
     """
     removes unnecessary characters from a string and splits it at a tab
     :param string: the string we want to do this to
@@ -112,8 +170,15 @@ def delete_bad_chars(string):
     return string.split("\\t")
 
 
-def save_concise_data(new_file_name, area_col, num_trash_lines, num_spec, name_of_dataset,
-                      counter, data):
+def save_concise_data(
+        new_file_name: str,
+        area_col: int,
+        num_trash_lines: int,
+        num_spec: int,
+        name_of_dataset: str,
+        counter: int,
+        data: str
+) -> None:
     """
     writes the data we want to the file
     :param new_file_name: the name of the new file we are using
@@ -133,7 +198,14 @@ def save_concise_data(new_file_name, area_col, num_trash_lines, num_spec, name_o
         write_to_file(data, counter, num_trash_lines, num_spec, file, area_col)
 
 
-def write_to_file(data, counter, num_trash_lines, num_spec, file, area_col):
+def write_to_file(
+        data: str,
+        counter: int,
+        num_trash_lines: int,
+        num_spec: int,
+        file: TextIO,
+        area_col: int
+) -> None:
     """
     writes the concise info to the file (just the name of the dataset, the species, and its area)
     :param data: the old file
@@ -151,7 +223,7 @@ def write_to_file(data, counter, num_trash_lines, num_spec, file, area_col):
         file.write(line[1] + ' ' + line[area_col - 1] + '\n')
 
 
-def get_file_len(data):
+def get_file_len(data: str) -> int:
     """
     finds how many lines are in the file
     :param data: the file
@@ -165,7 +237,7 @@ def get_file_len(data):
     return i
 
 
-def run_save_concise_data(data):
+def run_save_concise_data(data: str) -> List[Union[int, str]]:
     """
     creates a new file and writes the indiv. data set name, the species' names, and their areas
     :param data: the file we are reading
@@ -194,7 +266,7 @@ def run_save_concise_data(data):
     return [num_spec, new_file_name]
 
 
-def group_data(data, num_spec):
+def group_data(data: str, num_spec: int) -> Dict[str, list]:
     """
     takes the concise data and merges the 3 samples from each coil, giving us the average that is to
     be graphed
@@ -237,7 +309,7 @@ def group_data(data, num_spec):
     return compressed_dict
 
 
-def write_average(fname, names_dict, num_spec):
+def write_average(fname: str, names_dict: Dict[str, List[int]], num_spec: int) -> str:
     """
     takes the data and averages the values from each of the shots, ie if you have three aliquots
     from each coil then it averages those three and just writes the average and the species name
@@ -254,7 +326,7 @@ def write_average(fname, names_dict, num_spec):
     with open(fname, 'r') as file:
         lines = file.readlines()
     empty_file(final_file)
-    errors = {}  # {Coil1: {Ar: 1, Ne: 2, ...}, ...}
+    errors = {}  # {Coil1: {Ar: [area: 1, stdev: .4], ...}, ...}
     # names_dict ({'Ar': 5555555}), goes through all the datasets and takes the average of the
     # coil samples (rounding to 4 decimal places)
     for keys in names_dict:
@@ -263,7 +335,6 @@ def write_average(fname, names_dict, num_spec):
         data_indices = names_dict[keys]  # array
         all_areas = {}
         for index in range(len(data_indices)):
-
             # this is essentially the sample number
             location_in_file = data_indices[index]
             single_set = lines[len_of_set * location_in_file + 1: (location_in_file + 1) *
@@ -293,74 +364,34 @@ def write_average(fname, names_dict, num_spec):
     return final_file
 
 
-def prepare_plot(fname, num_spec):
-    """
-    gets the data ready to graph by putting the species' names and areas into arrays
-    :param fname: the file where the averaged data is
-    :param num_spec: the number of species in the dataset
-    :return: None
-    """
-    len_of_set = num_spec + 2
-    # number of characters in the species name (ie 'Ar' has 2 chars)
-    len_of_spec_name = 2
-    with open(fname, 'r') as file:
-        file_lines = json.load(file)
-    for coil in file_lines:
-        for spec in file_lines[coil]:
-            print('spec is', spec)
-    # grabs the indiv. dataset area
-    array_of_spec_names = []
-    array_of_areas = []
-    entry_names = []
-    for line in range(0, len(file_lines) // len_of_set):
-        single_set = file_lines[line * len_of_set: (line + 1) * len_of_set - 1]
-        entry_names.append(single_set[0].strip('\n'))
-        for entry in range(1, len(single_set)):
-            spec_name = single_set[entry][0:len_of_spec_name]
-            area = single_set[entry][len_of_spec_name + 1:]
-            array_of_areas.append(area)
-            array_of_spec_names.append(spec_name)
-    for area in range(len(array_of_areas)):
-        array_of_areas[area] = float(array_of_areas[area].strip('\n'))
-    create_plots(array_of_areas, array_of_spec_names, entry_names, num_spec, fname)
-
-
-# TODO add typing in param names
-def norm_data(name_and_area, entry_names, num_spec):
+def norm_data(
+        coil_data: Dict[str, Dict[str, Dict[str, float]]],
+        spec_to_norm_to: str
+) -> Dict[str, Dict[str, Dict[str, float]]]:
     """
     Normalizes to the user's chosen species
-
-    :param dict name_and_area: A dictionary object with key the species-name, the value an array of
-    all the areas from all the coils in the correct order
-    :param list entry_names: List of the names of the coils, in the order that corresponds to the
-    list of areas in the dictionary name_and_area
-    :param int num_spec: the number of species in the txt file
-    :return [dict, str]: array with first index a 2d dictionary with the key being the coil names,
-    the value being a dictionary of the form {species: normalized area, species: normalized area, ...};
-    second index the name of the species we are normalizing to
+    :param dict coil_data: A dictionary object with key the species-name, the value a dictionary
+    of species and their errors/areas
+    :param str spec_to_norm_to: the species that we want to normalize all areas to
+    :return dict: dictionary with the key being the coil names, the value being a dictionary of
+    the form {species: {normalized area: 1, normalized standard deviation: .1}, ...}
     """
-    spec_to_norm_to = input(
-        'Enter the name of the species that you want to normalize to ')
-    # find out if the spec name ('Ar' for example) is in the list of spec names, then divide all
-    # species' areas by that area
-    while spec_to_norm_to not in name_and_area:
-        spec_to_norm_to = input(spec_to_norm_to + ' not found, try again.\n(be sure to write the '
-                                                  'case-sensitive name) ')
-    coils_and_areas = {}
-    errors = {}
-    for name in name_and_area:
-        errors[name] = []
-    print('errors is', errors, 'need to use', name_and_area)
-    for index, coil in enumerate(entry_names):
-        coils_and_areas[coil] = {}
-        for spec_name in name_and_area:
-            area_to_norm_to = name_and_area[spec_to_norm_to][index]
-            coils_and_areas[coil][spec_name] = name_and_area[spec_name][index] / area_to_norm_to
-
-    return [coils_and_areas, spec_to_norm_to]
+    normalized_data = {}
+    for coil in coil_data:
+        normalized_data[coil] = {}
+        indiv_dataset = coil_data[coil]
+        normalize = indiv_dataset[spec_to_norm_to]
+        area_to_norm_to = normalize[AREA]
+        stdev_to_norm_to = normalize[STDEV]
+        for spec_name in indiv_dataset:
+            single_spec = indiv_dataset[spec_name]
+            normalized_data[coil][spec_name] = {}
+            normalized_data[coil][spec_name][AREA] = single_spec[AREA] / area_to_norm_to
+            normalized_data[coil][spec_name][STDEV] = single_spec[STDEV] / stdev_to_norm_to
+    return normalized_data
 
 
-def find_bounds(upper_or_lower, max_or_min):
+def find_bounds(upper_or_lower: float, max_or_min: str) -> int or float:
     bound = f"{upper_or_lower:.20f}"
     bound = str(bound)
     extreme_y_val = 1
@@ -376,57 +407,6 @@ def find_bounds(upper_or_lower, max_or_min):
             bound = bound[1:len(bound)]
         extreme_y_val /= 10
     return extreme_y_val
-
-
-def create_plots(array_of_areas, array_of_spec_names, entry_names, num_spec, fname):
-    """
-    makes the charts
-    TODO remove method prepare_plots(), just read the file and use it here
-    :param array_of_areas: the areas in each coil
-    :param array_of_spec_names: the species names in the coils
-    :param entry_names: the names of all the coils that we are analyzing
-    :param num_spec: the number of species that are being normalized
-    :param fname: name of the text file, so we can get the absolute path
-    :return: None
-    """
-    name_area_dict = {}
-    for name in array_of_spec_names:
-        location = [i for i, n in enumerate(array_of_spec_names) if n is name][0]
-        if name_area_dict.get(name) is None:
-            name_area_dict[name] = []
-        name_area_dict[name].append(array_of_areas[location])
-    cont = 'y'
-    while cont.lower() == 'y':
-        normalized_data = norm_data(name_area_dict, entry_names, num_spec)
-        normalized_data_dict = normalized_data[0]
-        spec_to_norm_to = normalized_data[1]
-
-        absolute_path = pth.abspath(fname).strip(fname)
-        print('saving graphs...')
-        for coil in normalized_data_dict:
-            normalized_data = []
-            for species in normalized_data_dict[coil]:
-                normalized_data.append(normalized_data_dict[coil][species])
-            x_pos = np.arange(len(normalized_data))
-            fig, ax = plt.subplots()
-            ax.bar(x_pos, normalized_data, width=.2, alpha=0.8)
-            ax.xaxis.set_major_locator(tck.MultipleLocator(10))
-            ax.set_xticks(x_pos)
-            ax.set_xticklabels(array_of_spec_names)
-            max_y_val = find_bounds(max(normalized_data), 'max')
-            min_y_val = find_bounds(min(normalized_data), 'min')
-            ax.set_yscale('log')
-            ax.set_ylim(min_y_val, max_y_val)
-            ax.set_xlabel('Species')
-            # TODO: add error bars
-            ax.set_ylabel('Area normalized to ' + spec_to_norm_to)
-            ax.set_title(coil)
-            ax.grid()
-            file_name = coil + '_normalized_to_' + spec_to_norm_to + '.svg'
-
-            # plt.show()
-            plt.savefig(pth.join(absolute_path, file_name), format='svg')
-        cont = input('Press \'y\' to normalize to another species, any other key to quit ')
 
 
 if __name__ == '__main__':
