@@ -37,7 +37,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit create_plots / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Pycharm formatting
+.idea/
+
+# unecessary files
+*_processed*
+*_averaged*
+*.svg
